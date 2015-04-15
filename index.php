@@ -45,7 +45,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">CYWARE</a>
+                <a class="navbar-brand page-scroll" href="#page-top"><i class="fa fa-home fa-1x"></i></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -55,16 +55,16 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#services">Servicios</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#portfolio">Portafolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">Acerca de</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -77,9 +77,9 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="intro-lead-in">Bienvenid&#64; a nuestra empresa!</div>
+                <div class="intro-heading">CYWARE</div>
+                <a href="#services" class="page-scroll btn btn-xl">Cuentame m&aacute;s</a>
             </div>
         </div>
     </header>
@@ -89,8 +89,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Servicios</h2>
+                    <!--<h3 class="section-subheading text-muted"></h3>-->
                 </div>
             </div>
             <div class="row text-center">
@@ -100,7 +100,7 @@
                         <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Movil</h4>
-                    <p class="text-muted">We develop custom mobile applications .</p>
+                    <p class="text-muted">Desarrollamos aplicaciones moviles.</p>
                     <ul class="list-inline">
                       <li><img src="img/services/android.png" class="img-responsive" alt=""></li>
                       <li><img src="img/services/iOS.png" class="img-responsive" alt=""></li>
@@ -109,26 +109,27 @@
                 <div class="col-md-3">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-server fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Servidores</h4>
+                    <p class="text-muted">Configuraci&oacute;n, mantenimiento y actualizaci&oacute;n.</p>
                 </div>
                 <div class="col-md-3">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Sitio Web</h4>
+                    <p class="text-muted">Dise&ntilde;amos sitios personalizados a la medida.</p>
                 </div>
                 <div class="col-md-3">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+
                     </span>
-                    <h4 class="service-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Seguridad Web</h4>
+                    <p class="text-muted">La seguridad esta primero y aprovechamos las herramientas para el aseguramiento de su aplicaci&oacute;n</p>
                 </div>  
                
             </div>
@@ -140,8 +141,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Portafolio</h2>
+                    <h3 class="section-subheading text-muted">Empresas que han confiado en CYWare.</h3>
                 </div>
             </div>
             <div class="row">
@@ -159,7 +160,7 @@
                         <h4>Round Icons</h4>
                         <p class="text-muted">Graphic Design</p>
                     </div>
-                </div>
+                </div><!--
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -200,7 +201,7 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>Lifebook</h4>
-                        <p class="text-muted">Backend & Web Site</p>
+                        <p class="text-muted">Backend &#43; RESTful Api Server</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -210,11 +211,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/fundal.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Escape</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>FUNDAL</h4>
+                        <p class="text-muted">Sitio Web</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -224,11 +225,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/mya.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Dreams</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Servicios M&amp;A</h4>
+                        <p class="text-muted">Sitio Web &#43; Backend</p>
                     </div>
                 </div>
             </div>
@@ -240,8 +241,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Nosotros</h2>
+                    <p class="section-subheading text-muted">CYWARE es una empresa de servicios informáticos que se dedica al diseño y desarrollo web, desarrollo de aplicaciones móviles Android e IOS, mantenimiento informático para empresas con soporte personalizado, implementación y administración de servidores, resolución de incidencias, copias de seguridad, además del marketing online y posicionamiento web.</p>
                 </div>
             </div>
             <div class="row">
@@ -249,65 +250,56 @@
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                                <img class="img-circle img-responsive" src="" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                    <h4>Misi&oacute;n</h4>
+                           
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">Somos una empresa comprometida con proporcionar las tecnologías más innovadoras a la medida de las necesidades empresariales, con el objetivo de incrementar en nuestros clientes la competitividad y productividad.  Nos satisface ser importantes colaboradores en la implementación de soluciones prácticas y creativas, que ayuden al crecimiento de nuestros clientes. .</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/22.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
+                                    <h4>Visi&oacute;n</h4>
+                                    <!--<h4 class="subheading">Visi&oacute;n</h4>-->
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">Nuestro deseo es posicionarnos como una empresa reconocida que brinda servicios tecnológicos para contribuir a la gestión de negocios de nuestros clientes, generando valor en sus procesos administrativos y en la toma de decisiones a través del uso de tecnología de alto nivel. Nuestro compromiso y experiencia nos permite desarrollar, comercializar e implementar exitosamente soluciones de gestión empresarial y servicios tecnológicos.</p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/32.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
+                                    <h4>Valores</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <ul class="list-unstyled">
+                                        <li>Atenci&oacute;n personalizada.</li>
+                                        <li>Tiempo de respuesta inmediata.</li>
+                                        <li>Monitorización de sus servicios.</li>
+                                        <li>Asistencia remota on-line a través de nuestros técnicos.</li>
+                                        <li>Análisis de su infraestructura para sostener una base fiable y estable en su informática.</li>
+                                    </ul>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
+                                <h4>Se Parte
+                                    <br>de nuestra
+                                    <br>historia!</h4>
                             </div>
                         </li>
                     </ul>
@@ -323,25 +315,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
-                    <a href="#">
+                    <a href="http://portaldace.mineco.gob.gt/">
                         <img src="img/logos/dace.png" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
+                    <a href="http://simecgt.com/">
+                        <img src="img/logos/simec.jpg" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
+                    <a href="http://www.csuca.org/">
+                        <img src="img/logos/fundal.jpg" class="img-responsive img-centered" alt="">
                     </a>
-                </div>
+                </div><!--
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
                         <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
                     </a>
-                </div>
+                </div>-->
             </div>
         </div>
     </aside>
@@ -350,8 +342,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Contacto</h2>
+                    <h3 class="section-subheading text-muted">Env&iacute;anos un mensaje.</h3>
                 </div>
             </div>
             <div class="row">
@@ -360,28 +352,28 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <input type="text" class="form-control" placeholder="Nombre *" id="name" required data-validation-required-message="por favor ingresa tu nombre.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <input type="email" class="form-control" placeholder="Correo *" id="email" required data-validation-required-message="por favor ingresa tu correo.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <input type="tel" class="form-control" placeholder="Tel&eacute;fono *" id="phone" required data-validation-required-message="por favor ingresa tu n&uacute;mero de tel&eacute;fono.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <textarea class="form-control" placeholder="Tu mensaje *" id="message" required data-validation-required-message="por favor ingresa un mensaje."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
+                                <button type="submit" class="btn btn-xl">Enviar Mensaje</button>
                             </div>
                         </div>
                     </form>
@@ -394,7 +386,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Your Website 2014</span>
+                    <span class="copyright">Copyright &copy; CYWARE 2015</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
@@ -521,12 +513,12 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Lifebook</h2>
-                            <p class="item-intro text-muted">Backend & Web Site.</p>
+                            <h2>LIFEBOOK</h2>
+                            <p class="item-intro text-muted">Por una vida mejor...</p>
                             <img class="img-responsive img-centered" src="img/portfolio/lifebook.jpeg" alt="">
-                            <p>This site was developed with framework <a href="http://www.codeigniter.com/">codeigniter</a> and <a href="http://getbootstrap.com/">bootstrap</a> </p>
-                            <p>Also we add a fully RESTful server for interactions with mobile applications.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <p class="item-intro text-muted">El proyecto fue desarrollado utilizando <a href="http://www.codeigniter.com/">Codeigniter</a> and <a href="http://getbootstrap.com/">Twitter Bootstrap</a> </p>
+                            <p class="item-intro text-muted">Adem&aactue; se desarrollo un <a href="http://es.wikipedia.org/wiki/Representational_State_Transfer" target="_blank">RESTful API Server</a> para el consumo de informaci&oacute;n entre la aplicaci&oacute;n web y dispositivos m&oacute;viles.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar Proyecto</button>
                         </div>
                     </div>
                 </div>
@@ -547,13 +539,12 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
-                            <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <h2>FUNDAL</h2>
+                            <p class="item-intro text-muted">Por un mundo m&aacute;s humano.</p>
+                            <p class="item-intro text-muted">FUNDAL es una fundaci&oacute;n que atiende a ni&ntilde;os con Sordoceguera, a esta instituci&oacute;n se le brinda soporte t&eacute;cnico en el &aacute;rea de inform&aacute;tica y telecomunicaciones, somos los responsables del servidor proxy/red, ademas del desarrollo de una aplicaci&oacute;n web para el control de procesos internos de las sedes, donde se lleva el control de los estudiantes, padrinos (socios aportadores), empleados, proyectos, eventos, actividades internas, entre otras cosas.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/fundal.jpg" alt="">
+                            <p class="item-intro text-muted">El Proyecto se esta desarrollando en PHP,MySQL y jQuery.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar Proyecto</button>
                         </div>
                     </div>
                 </div>
@@ -575,12 +566,11 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
-                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <h2>Servicios M&amp;A</h2>
+                            <p class="item-intro text-muted">M&amp;A es una empresa que se dedica a la fabricaci&oacute;n y venta de muebles finos, ademas de la elaboraci&oacute;n de parques tem&aacute;ticos, a M&amp;A se le desarrollo un portal web en el cual pudiera ofrecer sus productos con una galer&iacute;a de fotograf&iacute;as muy atractivas.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/mya.jpg" alt="">
+                            <p class="item-intro text-muted">El sitio fue trabajado en joomla, donde se le agreraron modulos de desarrolladores externos.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar Proyecto</button>
                         </div>
                     </div>
                 </div>
