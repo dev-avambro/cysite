@@ -200,7 +200,7 @@
                         <img src="img/portfolio/lifebook.jpeg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Lifebook</h4>
+                        <h4>LIFEBOOK</h4>
                         <p class="text-muted">Backend &#43; RESTful Api Server</p>
                     </div>
                 </div>
