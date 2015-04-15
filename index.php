@@ -315,17 +315,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
-                    <a href="http://portaldace.mineco.gob.gt/">
+                    <a href="http://portaldace.mineco.gob.gt/" target="_blank">
                         <img src="img/logos/dace.png" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <a href="http://simecgt.com/">
+                    <a href="http://simecgt.com/" target="_blank">
                         <img src="img/logos/simec.jpg" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <a href="http://www.csuca.org/">
+                    <a href="http://www.fundal.org.gt/" target="_blank">
                         <img src="img/logos/fundal.jpg" class="img-responsive img-centered" alt="">
                     </a>
                 </div><!--
