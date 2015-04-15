@@ -595,9 +595,6 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
-    <?php if(ENVIRONMENT != 'development'):
-        include_once "config/analyticstracking.php";
-     endif; ?>
 
 </body>
 
