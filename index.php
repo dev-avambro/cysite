@@ -99,8 +99,8 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Movil</h4>
-                    <p class="text-muted">Desarrollamos aplicaciones moviles.</p>
+                    <h4 class="service-heading">M&oacute;vil</h4>
+                    <p class="text-muted">Desarrollamos aplicaciones m&oacute;viles.</p>
                     <ul class="list-inline">
                       <li><img src="img/services/android.png" class="img-responsive" alt=""></li>
                       <li><img src="img/services/iOS.png" class="img-responsive" alt=""></li>
@@ -129,7 +129,7 @@
 
                     </span>
                     <h4 class="service-heading">Seguridad Web</h4>
-                    <p class="text-muted">La seguridad esta primero y aprovechamos las herramientas para el aseguramiento de su aplicaci&oacute;n</p>
+                    <p class="text-muted">La seguridad est&aacute; primero y aprovechamos las herramientas para el aseguramiento de su aplicaci&oacute;n</p>
                 </div>  
                
             </div>
@@ -595,6 +595,9 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+    <?php if(ENVIRONMENT != 'development'):
+        include_once "config/analyticstracking.php";
+     endif; ?>
 
 </body>
 
