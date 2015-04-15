@@ -215,7 +215,7 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>FUNDAL</h4>
-                        <p class="text-muted">Sitio Web</p>
+                        <p class="text-muted">Servidores,Redes,ERP y Soporte T&eacute;cnico</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
