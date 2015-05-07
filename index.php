@@ -146,7 +146,7 @@
                 </div>
             </div>
             <div class="row">
-                <!--
+                <!--     //YO
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
